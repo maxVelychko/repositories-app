@@ -1,0 +1,28 @@
+.searchInput {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.repositoryItem {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 0.0625rem solid #e1e4e8;
+  border-radius: 0.5rem;
+  .nameText {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+  .ownerText {
+    color: #586069;
+  }
+  .languagesWrapper {
+    margin-top: 1rem;
+    .languageText {
+      margin-right: 0.25rem;
+      padding: 0.25rem;
+      color: #0366D6;
+      border-radius: 0.25rem;
+      background-color: #f1f8ff;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html, body {
+  min-height: 100vh;
+  font-size: 16px;
+  color: #24292e;
+}
+
+body > #root {
+  min-height: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #586069;
+}
+
+input[type=text], select {
+  padding: 0.5rem;
+  outline: none;
+  font-size: inherit;
+  border: 1px solid #d1d5da;
+  border-radius: 0.25rem;
+  &:focus{
+    border-color: #24292e;
+  }
+}
